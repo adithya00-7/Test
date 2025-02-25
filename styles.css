@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: flex-end;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+}
+
+.navlinks li {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px 15px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.07px;
+  letter-spacing: 0%;
+}
+
+.button-wrapper {
+  width: 125px;
+  height: 52px;
+  top: 30px;
+  left: 1097px;
+  border-radius: 1px;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.btn1 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button-outline {
+  width: 116px;
+  height: 52px;
+  left: 9px;
+  border: 1px solid #242424;
+  border-radius: 1px;
+  border-width: 1px;
+  padding-top: 14px;
+  padding-right: 32px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+}
+
+.btn2 {
+  all: unset;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5%;
+}
+
+.container1 {
+  background-color: #102364;
+  width: auto;
+  height: 469px;
+  top: 114px;
+  left: 72px;
+  border-radius: 5px;
+  right: 72px;
+  margin-left: 72px;
+  margin-right: 72px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.image1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  width: 50%;
+  color: white;
+}
+
+.content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 60px;
+  letter-spacing: 0%;
+}
+
+.content h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+
+.image_and_content {
+  display: flex;
+  margin-top: 560px;
+  margin-left: 140px;
+}
+
+.image_and_content .text1 {
+  margin-left: 100px;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0%;
+}/*# sourceMappingURL=styles.css.map */
